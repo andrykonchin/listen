@@ -52,6 +52,7 @@ jobs:
       run: |
         ${{matrix.env}} bundle exec rspec
 
+
   linting:
     runs-on: ubuntu-latest
 
